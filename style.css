@@ -1,0 +1,380 @@
+:root {
+  /* IRIS */
+  --PrimaryBrand: #4d5ae5;
+
+  /* Navy blue */
+  --Dark: #2e2f42;
+
+  /* GREEN */
+  --Success: #31d0aa;
+
+  /* SLATE */
+  --Text: #434455;
+
+  /* LIGHT SLATE */
+  --SubtleText: #8e8f99;
+
+  /* Сornflower */
+  --Accent: #e7e9fc;
+
+  /* CLOUD */
+  --Light: #f4f4fd;
+
+  --White: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--Dark);
+  background-color: var(--White);
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.primary-title {
+  font-size: 56px;
+  line-height: 1.071;
+  font-weight: 600;
+}
+
+.secondary-title {
+  font-size: 36px;
+  line-height: 1.111;
+  font-weight: 600;
+  margin-bottom: 72px;
+}
+
+.third-title {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 1128px;
+  margin: 0 auto;
+}
+
+.text-align {
+  text-align: center;
+}
+
+/* HEADER */
+
+.header {
+  height: 72px;
+  background: #ffffff;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.header .container {
+  align-items: center;
+  height: inherit;
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--Dark);
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.333;
+  font-weight: 800;
+  margin-right: 77px;
+}
+
+.logo-web {
+  color: var(--PrimaryBrand);
+}
+
+.nav-menu {
+  justify-content: space-between;
+}
+.nav-menu a {
+  color: var(--Dark);
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.nav-menu a:hover {
+  color: var(--Text);
+}
+
+.nav-menu a:focus {
+  color: var(--Text);
+}
+
+.nav-menu a:active {
+  color: var(--PrimaryBrand);
+}
+
+.contacts {
+  margin-left: auto;
+}
+
+.contacts li:first-child {
+  margin-right: 40px;
+}
+
+.contacts a:hover {
+  color: var(--PrimaryBrand);
+}
+
+.contacts a:focus {
+  color: var(--PrimaryBrand);
+}
+
+.text {
+  color: var(--Text);
+  line-height: 1.5;
+}
+
+/* MAIN */
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.service {
+  background-color: var(--Dark);
+  color: var(--White);
+  height: 603px;
+  text-align: center;
+  padding-top: 192px;
+  box-sizing: border-box;
+}
+
+.service .primary-title {
+  margin-bottom: 48px;
+  letter-spacing: 0.02em;
+  margin: 0 0 48px 0;
+  text-align: center;
+}
+
+.service-button {
+  color: var(--White);
+  background-color: var(--PrimaryBrand);
+  font-size: 16px;
+  line-height: 1.187;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  border-radius: 4px;
+  padding: 16px 32px;
+  letter-spacing: 0.04em;
+}
+
+.service-button:hover {
+  background-color: var(--PrimaryBrand);
+}
+
+.service-button:focus {
+  background-color: var(--PrimaryBrand);
+}
+
+.service-button:active {
+  background-color: #404bbf;
+}
+
+/* Advanteges */
+
+.advanteges {
+  padding-bottom: 120зч;
+}
+
+.advanteges .secondary-title {
+  display: none;
+}
+
+.advantages-cards {
+  margin-right: -24px;
+}
+.advantages-cards li {
+  flex-basis: calc(100% / 4 - 24px);
+  margin-right: 24px;
+}
+
+/* OURWORKS */
+
+.ourworks {
+  padding-top: 0;
+}
+
+.ourworks-cards {
+  justify-content: space-between;
+}
+
+/* Our TEAM */
+
+.ourteam {
+  background-color: #f4f4fd;
+  height: 732px;
+}
+
+.ourteam .container {
+  height: 100%;
+}
+
+
+.ourteam-cards {
+  justify-content: space-between;
+  text-align: center;
+}
+
+.ourteam-cards li {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--White);
+}
+
+.ourteam-cards img {
+  margin-bottom: 32px;
+}
+
+.ourteam-cards_position {
+  margin: 0px auto 32px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--Dark);
+  height: 310px;
+}
+
+.footer .container {
+  padding-top: 100px;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.116;
+  font-weight: 800;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.logo-studio {
+  color: var(--White);
+}
+
+.footer-description {
+  color: var(--Accent);
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  width: 264px;
+}
+
+/* PORTFOLIO CSS */
+
+.filter .primary-title {
+  display: none;
+}
+
+.filter-list_buttons {
+  justify-content: center;
+}
+
+.filter-list_buttons li {
+  margin-right: 20px;
+}
+
+.filter-list_buttons li:last-child {
+  margin-right: 0;
+}
+
+.filter-button {
+  background-color: var(--Accent);
+  color: var(--PrimaryBrand);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: 1px solid #e7e9fc;
+}
+
+.filter-button:last-child {
+  margin-right: 0;
+}
+
+.filter-button:hover {
+  background-color: var(--PrimaryBrand);
+  color: var(--White);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter-button:focus {
+  background-color: var(--PrimaryBrand);
+  color: var(--White);
+}
+
+.filter-list_card {
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-right: -24px;  
+}
+
+.filter-card {
+  flex-basis: calc(100% / 3 - 24px);
+  height: 420px;
+  margin-bottom: 42px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  margin-right: 24px;
+}
+
+.filter-card p {
+  padding-bottom: 32px;
+  margin-left: 16px;
+}
+
+.filter-image {
+  margin-bottom: 32px;
+}
+
+.filter-card .secondary-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  margin-left: 16px;
+}
